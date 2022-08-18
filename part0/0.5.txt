@@ -1,0 +1,13 @@
+browser->server: HTTP GET single page notes
+server-->browser: comprise only one HTML page from server
+note over browser:
+content of HTML one page is manipuled with 
+JavaScript that executes in the browser 
+end note
+browser->server: HTTP Submit data
+note over server:
+The code fetches the notes
+from the server as JSON-data
+and adds HTML elements
+end note
+server-->browser: reload the Notes page with a redirect

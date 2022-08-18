@@ -1,0 +1,7 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+database -> server: return all data store inside note's list
+server -->browser: It shows a list of different paragraphs
+browser -> server: HTTP POST paragraph inside page
+server -> database: insert this new database 
+database --> server: return all data store inside note's list
+server --> browser : update information about all data store on note's list
